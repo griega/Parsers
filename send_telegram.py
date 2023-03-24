@@ -8,7 +8,7 @@ conn = sqlite3.connect('ozon.db')
 cursor = conn.cursor()
 
 # создание объекта бота
-bot = telegram.Bot(token='5996232986:AAF4-7p472QdmXbMo1m5KXPGfpDvBqioLj4')
+bot = telegram.Bot(token='')
 channel_name = 'https://t.me/+AVUoDr72fe81MmVi'
 
 # функция для публикации сообщений в канале
